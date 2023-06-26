@@ -1,6 +1,6 @@
 <script setup>
-import AboutView from "./views/AboutView.vue";
-import HomeView from "./views/HomeView.vue";
+//import AboutView from "./views/AboutView.vue";
+//import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
@@ -9,6 +9,7 @@ import HomeView from "./views/HomeView.vue";
     <nav class="menu">
       <router-link to="/">Home</router-link>
       <router-link to ="/about">About</router-link>
+      <router-link to ="/peticao">Peticao</router-link>
     </nav>
   </aside>
   <main>
